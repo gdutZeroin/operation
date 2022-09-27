@@ -2,10 +2,10 @@ package operation;
 
 public class Mainclass {
     public static void main(String[] args) {
-        generate_exercise g_e=new generate_exercise();
-        answer_result a_r=new answer_result();
-        output_result o_r=new output_result();
-        check_result c_r=new check_result(a_r);
+        generate_exercise g_e=new generate_exercise();//生成题目类
+        answer_result a_r=new answer_result();//回答问题类
+        output_result o_r=new output_result();//输出结果到exercise.txt和answer.txt类
+        check_result c_r=new check_result(a_r);//检查答案并输出到grade.txt类
         int exercise_num;//生成题目个数
         int limit_num;//界定生成数范围
         String exercise;//一个题目
