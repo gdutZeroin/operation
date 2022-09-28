@@ -2,8 +2,8 @@ package operation;
 
 import java.io.File;
 
-public class output_result {
-    public output_result()
+public class Output_result {
+    public Output_result()
     {
         File exercise=new File("src\\resourse\\exercise.txt");//题目文件
         File answer=new File("src\\resourse\\answer.txt");//答案文件
